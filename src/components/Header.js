@@ -4,11 +4,11 @@ import { FiClock, FiSearch, FiList } from 'react-icons/fi';
 import { SmileIcon } from 'components/icons';
 
 const menuList = [
-  { title: 'File', link: 'https://www.instagram.com/artschooool/' },
-  { title: 'Edit', link: 'https://www.instagram.com/artschooool/' },
-  { title: 'Option', link: 'https://www.instagram.com/artschooool/' },
-  { title: 'Window', link: 'https://www.instagram.com/artschooool/' },
-  { title: 'Help', link: 'https://www.instagram.com/artschooool/' },
+  { title: 'File', link: 'https://hahow.in/cr/artschooool' },
+  { title: 'Edit', link: 'https://hahow.in/cr/artschooool' },
+  { title: 'Option', link: 'https://hahow.in/cr/artschooool' },
+  { title: 'Window', link: 'https://hahow.in/cr/artschooool' },
+  { title: 'Help', link: 'https://hahow.in/cr/artschooool' },
 ];
 
 const Header = () => {
@@ -37,7 +37,13 @@ const Header = () => {
             </Text>
           </Link>
           {menuList.map(item => (
-            <Link key={item.title} fontWeight="500" isExternal href={item.link}>
+            <Link
+              display={{ base: 'none', lg: 'flex' }}
+              key={item.title}
+              fontWeight="500"
+              isExternal
+              href={item.link}
+            >
               {item.title}
             </Link>
           ))}

@@ -11,6 +11,7 @@ import RoundSvg from 'components/RoundSvg';
 import gif03 from 'assets/images/gif/gif03.gif';
 
 import post08 from 'assets/images/posts/post08.jpg';
+import gif08 from 'assets/images/gif/gif08.gif';
 import panel from 'assets/images/panel.jpg';
 import shelf02 from 'assets/images/shelf02.svg';
 import net from 'assets/images/net.png';
@@ -90,7 +91,7 @@ const Section04 = () => {
           <Flex position="absolute" right="-100px" bottom="80px">
             <ArrowSvg />
           </Flex>
-          <PostWindow img={post08} gif={post08} zIndex="10" />
+          <PostWindow img={post08} gif={gif08} zIndex="10" />
         </Flex>
       </Flex>
     </>

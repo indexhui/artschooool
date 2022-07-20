@@ -9,6 +9,7 @@ import LogoSvg from 'components/LogoSvg';
 import gif03 from 'assets/images/gif/gif03.gif';
 import post06 from 'assets/images/posts/post06.jpg';
 import post07 from 'assets/images/posts/post07.jpg';
+import gif07 from 'assets/images/gif/gif07.gif';
 import gear from 'assets/images/gear.svg';
 import shelf02 from 'assets/images/shelf02.svg';
 import net from 'assets/images/net.png';
@@ -82,7 +83,7 @@ const Section04 = () => {
             w="350px"
             opacity="0.4"
           />
-          <PostWindow img={post07} gif={post07} zIndex="10" />
+          <PostWindow img={post07} gif={gif07} zIndex="10" />
         </Flex>
       </Flex>
     </>

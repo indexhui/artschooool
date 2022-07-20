@@ -8,6 +8,7 @@ import FolderModal from 'components/FolderModal';
 import LogoSvg from 'components/LogoSvg';
 import post04 from 'assets/images/posts/post04.jpg';
 import shelf02 from 'assets/images/shelf02.svg';
+import gif04 from 'assets/images/gif/gif04.gif';
 
 const MotionImage = motion(Image);
 
@@ -69,7 +70,7 @@ const Section03 = () => {
             w="350px"
             opacity="0.5"
           />
-          <PostWindow img={post04} gif={post04} zIndex="10" />
+          <PostWindow img={post04} gif={gif04} zIndex="10" />
         </Flex>
       </Flex>
     </>
